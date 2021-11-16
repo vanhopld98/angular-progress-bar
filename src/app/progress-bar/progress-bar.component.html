@@ -1,0 +1,6 @@
+<h2>Progress bar</h2>
+<p>{{progress.toFixed(0)}}/100</p>
+<div class="progress-bar-container" [style.backgroundColor]="backgroundColor">
+  <div class="progress" [ngStyle]="{backgroundColor: progressColor,
+  width: progress + '%'}"></div>
+</div>
